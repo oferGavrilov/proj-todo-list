@@ -1,0 +1,81 @@
+body {
+    background-color: lightcyan;
+    font-size: 20px;
+}
+
+
+
+.todo-filter {
+    background-color: lightpink;
+    padding: 10px;
+}
+
+.todo-stat {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightpink;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.todo-stat h3{
+    height: 135px;
+    width: 185px;
+    border-radius: 10px;
+}
+
+
+.todo-list {
+    display: block;
+    padding: 0;
+    height: 400px;
+}
+
+.todo-list li{
+    position: relative;
+    display: flex;
+    margin: 10px;
+    border-radius: 14px;
+    padding: 10px;
+    gap: 10px;
+    width: 30%;
+}
+
+.todo-list button {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.modal{
+    position: fixed;
+    margin: auto;
+    text-align: center;
+    inset: 0 0 200px 0; 
+    height: 300px;
+    width: 400px;
+    font-size: 30px;
+    background-color: beige;
+}
+
+.done {
+    text-decoration: line-through;
+    background-color: rgb(219, 195, 195);
+    border-radius: 14px;
+}
+
+.a-level{
+    background-color: rgb(196, 244, 196);
+}
+
+.b-level{
+    background-color: rgb(235, 215, 178);
+}
+.c-level{
+    background-color: rgb(235, 178, 180);
+}
+
+.hidden{
+    display: none;
+}
